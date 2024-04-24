@@ -1,0 +1,99 @@
+/* General Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Body Style */
+body {
+  padding: 10px;
+  font-family: sans-serif;
+  background-color: aliceblue;
+}
+
+#app .app-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#app h1 {
+  color: #004561;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#app .event {
+  position: absolute;
+  top: 100px;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.form-sum {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.form-res {
+  margin: 1px;
+  overflow-x: hidden;
+}
+
+select {
+  width: 300px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+h3 {
+  margin: 8px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(129, 23, 23);
+}
+
+h4 {
+  position: relative;
+  left: 145px;
+  margin-top: 10px;
+  color: #002b3b;
+}
+
+p {
+  font-size: 14px;
+  font-style: oblique;
+  padding: 1px;
+  margin-bottom: 2px;
+  color: #00141b;
+}
+
+.person-event {
+  display: inline-flex;
+  position: relative;
+  left: 130px;
+}
+
+
+.person-box {
+  border: solid #e0dacc;
+  padding: 15px;
+  margin: 15px;
+  width: 300px;
+  height: 150px;
+  box-sizing: border-box;
+  background: #3b408c69;
+  display: flex;
+  flex-direction: column;
+}
