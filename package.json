@@ -1,5 +1,5 @@
 {
-  "name": "quave-code-challenge",
+  "name": "event-entry",
   "private": true,
   "scripts": {
     "start": "meteor run --port 3020 --exclude-archs web.browser.legacy,web.cordova",
